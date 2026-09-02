@@ -37,7 +37,6 @@ yarn-error.log*
 # database
 *.db
 *.db-journal
-!/prisma/store.db
 
 # IDE / agent tooling
 .cursor/

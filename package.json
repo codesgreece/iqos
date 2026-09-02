@@ -4,14 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && node scripts/prepare-vercel-db.mjs && next build",
+    "build": "prisma generate && next build",
     "start": "next start",
     "lint": "eslint",
     "postinstall": "prisma generate",
-    "vercel-build": "prisma generate && node scripts/prepare-vercel-db.mjs && next build",
+    "vercel-build": "prisma generate && prisma db push && npx tsx prisma/seed.ts && next build",
     "db:push": "prisma db push",
     "db:seed": "npx tsx prisma/seed.ts",
-    "db:setup": "prisma db push && npx tsx prisma/seed.ts"
+    "db:setup": "prisma db push && npx tsx prisma/seed.ts",
+    "db:provision-neon": "node scripts/provision-neon-vercel.mjs"
   },
   "prisma": {
     "seed": "npx tsx prisma/seed.ts"
