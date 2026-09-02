@@ -4,19 +4,19 @@ import { Button } from "@/components/ui/Button";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "About FINAL BOSS ACTIVITY — rare and limited-edition products for collectors.",
+  description: "About SMOKA — rare and limited-edition products for collectors.",
 };
 
 export default function AboutPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
       <span className="text-xs font-semibold uppercase tracking-[0.25em] text-violet">About</span>
-      <h1 className="mt-2 text-2xl font-bold text-white md:text-3xl">FINAL BOSS ACTIVITY</h1>
-      <p className="mt-2 text-lg text-lavender">Rare. Limited. Unforgettable.</p>
+      <h1 className="mt-2 text-2xl font-bold text-white md:text-3xl">SMOKA</h1>
+      <p className="mt-2 text-lg text-lavender">Rare • Limited • Exclusive</p>
 
       <div className="mt-10 space-y-6 text-sm leading-relaxed text-muted">
         <p>
-          FINAL BOSS ACTIVITY is a premium collector store built for those who seek something
+          SMOKA is a premium collector store built for those who seek something
           extraordinary. We source rare, limited-edition technology and accessories that you
           won&apos;t find on every shelf.
         </p>

@@ -32,7 +32,7 @@ export function WhySection() {
             Why Us
           </span>
           <h2 className="mt-2 text-2xl font-bold uppercase tracking-tight text-white md:text-3xl">
-            Why Final Boss Activity
+            Why SMOKA
           </h2>
           <p className="mt-3 max-w-md text-sm text-muted">
             Built for collectors who know the difference between ordinary and unforgettable.

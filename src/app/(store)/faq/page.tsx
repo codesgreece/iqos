@@ -3,12 +3,12 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "FAQ",
-  description: "Frequently asked questions about FINAL BOSS ACTIVITY.",
+  description: "Frequently asked questions about SMOKA.",
 };
 
 const FAQ_ITEMS = [
   {
-    q: "What makes FINAL BOSS ACTIVITY different?",
+    q: "What makes SMOKA different?",
     a: "We curate rare, limited-edition and collector-grade products. Every drop is selected for exclusivity and quality — not mass-market availability.",
   },
   {
@@ -29,7 +29,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "Are the products authentic?",
-    a: "Every product sold through FINAL BOSS ACTIVITY is sourced through authorized channels. We guarantee authenticity on all limited-edition items.",
+    a: "Every product sold through SMOKA is sourced through authorized channels. We guarantee authenticity on all limited-edition items.",
   },
 ];
 
@@ -41,7 +41,7 @@ export default function FAQPage() {
         Frequently Asked Questions
       </h1>
       <p className="mt-3 text-sm text-muted">
-        Everything you need to know about shopping with FINAL BOSS ACTIVITY.
+        Everything you need to know about shopping with SMOKA.
       </p>
 
       <div className="mt-10 space-y-4">

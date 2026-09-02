@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Returns & Exchanges | FINAL BOSS ACTIVITY",
+  title: "Returns & Exchanges | SMOKA",
 };
 
 export default function ReturnsPage() {
@@ -18,7 +18,7 @@ export default function ReturnsPage() {
         </p>
         <h2>How to Return</h2>
         <p>
-          Contact us at contact@finalbossactivity.com with your order number to initiate a return.
+          Contact us at contact@smoka.com with your order number to initiate a return.
           We will provide return instructions and a return authorization.
         </p>
         <h2>Refunds</h2>

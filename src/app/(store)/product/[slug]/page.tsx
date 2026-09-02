@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   const baseUrl = process.env.NEXTAUTH_URL ?? "http://localhost:3000";
 
   return {
-    title: product.seoTitle ?? `${product.name} | FINAL BOSS ACTIVITY`,
+    title: product.seoTitle ?? `${product.name} | SMOKA`,
     description: product.seoDescription ?? product.shortDescription ?? product.description,
     alternates: {
       canonical: `${baseUrl}/product/${product.slug}`,

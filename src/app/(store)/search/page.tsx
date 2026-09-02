@@ -4,7 +4,7 @@ import { ProductGrid } from "@/components/shop/ProductGrid";
 import { SearchForm } from "./SearchForm";
 
 export const metadata: Metadata = {
-  title: "Search | FINAL BOSS ACTIVITY",
+  title: "Search | SMOKA",
 };
 
 interface SearchPageProps {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Cookie Policy | FINAL BOSS ACTIVITY",
+  title: "Cookie Policy | SMOKA",
 };
 
 export default function CookiesPage() {

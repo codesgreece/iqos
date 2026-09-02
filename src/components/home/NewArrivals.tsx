@@ -21,7 +21,7 @@ export async function NewArrivals() {
             New Arrivals
           </h2>
           <p className="mt-3 max-w-md text-sm text-muted">
-            The latest additions to the FINAL BOSS ACTIVITY collection.
+            The latest additions to the SMOKA collection.
           </p>
         </div>
 

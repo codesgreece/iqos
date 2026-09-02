@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 
 export function Hero() {
@@ -14,12 +15,17 @@ export function Hero() {
       </div>
 
       <div className="relative mx-auto flex min-h-[85vh] max-w-7xl flex-col items-center justify-center px-4 py-24 text-center sm:px-6 lg:px-8">
-        <h1 className="max-w-4xl text-4xl font-bold uppercase leading-[1.1] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl animate-fade-in">
-          FINAL BOSS ACTIVITY
-        </h1>
+        <Image
+          src="/smoka-logo.jpg"
+          alt="SMOKA"
+          width={420}
+          height={420}
+          priority
+          className="h-auto w-full max-w-xs animate-fade-in sm:max-w-sm md:max-w-md"
+        />
 
         <p className="mt-6 max-w-2xl text-lg font-medium uppercase tracking-[0.2em] text-lavender sm:text-xl md:text-2xl animate-fade-in">
-          Rare. Limited. Unforgettable.
+          Rare • Limited • Exclusive
         </p>
 
         <p className="mt-6 max-w-xl text-base leading-relaxed text-muted sm:text-lg animate-fade-in">

@@ -114,8 +114,8 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
         </div>
 
         <div className="border-t border-border px-6 py-4">
-          <p className="text-center text-xs text-muted">
-            FINAL BOSS ACTIVITY
+          <p className="text-center text-xs font-semibold uppercase tracking-widest text-muted">
+            SMOKA
           </p>
         </div>
       </nav>

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | FINAL BOSS ACTIVITY",
+  title: "Terms of Service | SMOKA",
 };
 
 export default function TermsPage() {
@@ -10,7 +10,7 @@ export default function TermsPage() {
       <p>Last updated: September 2026</p>
       <h2>1. Acceptance of Terms</h2>
       <p>
-        By accessing and using FINAL BOSS ACTIVITY (&quot;we&quot;, &quot;our&quot;, &quot;us&quot;),
+        By accessing and using SMOKA (&quot;we&quot;, &quot;our&quot;, &quot;us&quot;),
         you agree to be bound by these Terms of Service. If you do not agree, please do not use our services.
       </p>
       <h2>2. Products &amp; Availability</h2>
@@ -30,12 +30,12 @@ export default function TermsPage() {
       </p>
       <h2>5. Age Verification</h2>
       <p>
-        You must be at least 18 years old to purchase from FINAL BOSS ACTIVITY. Age verification may
+        You must be at least 18 years old to purchase from SMOKA. Age verification may
         be required for certain products.
       </p>
       <h2>6. Contact</h2>
       <p>
-        For questions about these terms, contact us at contact@finalbossactivity.com.
+        For questions about these terms, contact us at contact@smoka.com.
       </p>
     </LegalLayout>
   );

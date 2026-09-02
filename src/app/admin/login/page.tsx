@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { signIn, signOut } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/Button";
@@ -49,8 +50,15 @@ export default function AdminLoginPage() {
       <div className="w-full max-w-md">
         <div className="mb-8 text-center">
           <p className="text-xs font-semibold uppercase tracking-widest text-muted">Admin Panel</p>
-          <h1 className="mt-2 text-2xl font-bold text-lavender">FINAL BOSS ACTIVITY</h1>
-          <p className="mt-1 text-sm text-muted">Sign in with your admin account</p>
+          <Image
+            src="/smoka-logo.jpg"
+            alt="SMOKA"
+            width={200}
+            height={80}
+            className="mx-auto mt-4 h-16 w-auto"
+            priority
+          />
+          <p className="mt-3 text-sm text-muted">Sign in with your admin account</p>
         </div>
 
         <form
@@ -69,7 +77,7 @@ export default function AdminLoginPage() {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="admin@finalbossactivity.com"
+              placeholder="admin@smoka.com"
               required
             />
             <Input

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | FINAL BOSS ACTIVITY",
+  title: "Privacy Policy | SMOKA",
 };
 
 export default function PrivacyPage() {
@@ -30,7 +30,7 @@ export default function PrivacyPage() {
         <h2>Your Rights</h2>
         <p>
           You may request access, correction, or deletion of your personal data by contacting us at
-          contact@finalbossactivity.com.
+          contact@smoka.com.
         </p>
       </div>
     </div>

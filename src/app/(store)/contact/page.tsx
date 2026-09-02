@@ -67,8 +67,8 @@ export default function ContactPage() {
         </h2>
         <p className="mt-3 text-sm text-muted">
           Email:{" "}
-          <a href="mailto:contact@finalbossactivity.com" className="text-lavender hover:underline">
-            contact@finalbossactivity.com
+          <a href="mailto:contact@smoka.com" className="text-lavender hover:underline">
+            contact@smoka.com
           </a>
         </p>
         <p className="mt-2 text-sm text-muted">

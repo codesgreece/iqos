@@ -49,7 +49,7 @@ export async function POST(request: NextRequest) {
             currency: settings.general.currency.toLowerCase(),
             product_data: {
               name: `Order ${order.orderNumber}`,
-              description: "FINAL BOSS ACTIVITY",
+              description: "SMOKA",
             },
             unit_amount: Math.round(order.total * 100),
           },

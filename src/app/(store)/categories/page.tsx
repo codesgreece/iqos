@@ -4,8 +4,8 @@ import Link from "next/link";
 import { prisma } from "@/lib/prisma";
 
 export const metadata: Metadata = {
-  title: "Categories | FINAL BOSS ACTIVITY",
-  description: "Browse all product categories at FINAL BOSS ACTIVITY.",
+  title: "Categories | SMOKA",
+  description: "Browse all product categories at SMOKA.",
 };
 
 export default async function CategoriesPage() {

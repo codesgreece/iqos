@@ -8,8 +8,8 @@ import { SortSelect, mapSortToFilters } from "@/components/shop/SortSelect";
 import { ShopContent } from "./ShopContent";
 
 export const metadata: Metadata = {
-  title: "Shop | FINAL BOSS ACTIVITY",
-  description: "Browse rare and limited-edition products at FINAL BOSS ACTIVITY.",
+  title: "Shop | SMOKA",
+  description: "Browse rare and limited-edition products at SMOKA.",
 };
 
 interface ShopPageProps {

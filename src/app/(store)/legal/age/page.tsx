@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/Button";
 
 export const metadata: Metadata = {
   title: "Age Verification",
-  description: "Age verification policy for FINAL BOSS ACTIVITY.",
+  description: "Age verification policy for SMOKA.",
 };
 
 export default function AgeVerificationPage() {
@@ -13,7 +13,7 @@ export default function AgeVerificationPage() {
       <h1 className="text-2xl font-bold text-white md:text-3xl">Age Verification</h1>
       <div className="mt-8 space-y-6 text-sm leading-relaxed text-muted">
         <p>
-          FINAL BOSS ACTIVITY sells products that may be subject to age restrictions under Greek
+          SMOKA sells products that may be subject to age restrictions under Greek
           and European law. You must be at least 18 years old to browse and purchase from our store.
         </p>
         <h2 className="text-lg font-semibold text-white">Our Policy</h2>

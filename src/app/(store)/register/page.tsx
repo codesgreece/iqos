@@ -50,7 +50,7 @@ export default function RegisterPage() {
     <div className="mx-auto max-w-md px-4 py-16 sm:px-6">
       <div className="text-center mb-8">
         <h1 className="text-2xl font-bold uppercase tracking-tight text-white">Create Account</h1>
-        <p className="mt-2 text-sm text-muted">Join the FINAL BOSS ACTIVITY collector community</p>
+        <p className="mt-2 text-sm text-muted">Join the SMOKA collector community</p>
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-4 rounded-[var(--card-radius)] border border-border bg-surface p-6">

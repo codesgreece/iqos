@@ -10,10 +10,10 @@ async function main() {
   const customerPassword = await bcrypt.hash("customer123", 12);
 
   const admin = await prisma.user.upsert({
-    where: { email: "admin@finalbossactivity.com" },
+    where: { email: "admin@smoka.com" },
     update: {},
     create: {
-      email: "admin@finalbossactivity.com",
+      email: "admin@smoka.com",
       name: "Admin",
       password: adminPassword,
       role: "ADMIN",
@@ -89,7 +89,7 @@ async function main() {
     {
       name: "ILUMA PRIME STARDUST",
       slug: "iluma-prime-stardust",
-      sku: "FBA-ILUMA-SD-001",
+      sku: "SMK-ILUMA-SD-001",
       brand: "IQOS",
       categoryId: categories[0].id,
       description:
@@ -110,13 +110,13 @@ async function main() {
         "Color": "Cosmic Purple",
         "Warranty": "12 months",
       }),
-      seoTitle: "ILUMA PRIME STARDUST | Limited Edition | FINAL BOSS ACTIVITY",
+      seoTitle: "ILUMA PRIME STARDUST | Limited Edition | SMOKA",
       seoDescription: "Rare ILUMA PRIME STARDUST limited edition device. Only 500 units worldwide.",
     },
     {
       name: "ILUMA ONE OBSIDIAN",
       slug: "iluma-one-obsidian",
-      sku: "FBA-ILUMA-OB-002",
+      sku: "SMK-ILUMA-OB-002",
       brand: "IQOS",
       categoryId: categories[0].id,
       description:
@@ -140,7 +140,7 @@ async function main() {
     {
       name: "TEREA AMBER COLLECTION",
       slug: "terea-amber-collection",
-      sku: "FBA-TEREA-AM-003",
+      sku: "SMK-TEREA-AM-003",
       brand: "TEREA",
       categoryId: categories[1].id,
       description:
@@ -158,8 +158,8 @@ async function main() {
     {
       name: "PREMIUM CARRY CASE LEATHER",
       slug: "premium-carry-case-leather",
-      sku: "FBA-CASE-LT-004",
-      brand: "FBA",
+      sku: "SMK-CASE-LT-004",
+      brand: "SMOKA",
       categoryId: categories[1].id,
       description:
         "Handcrafted genuine leather carry case with amethyst accent stitching. Protects your device in premium style.",
@@ -176,8 +176,8 @@ async function main() {
     {
       name: "COLLECTOR BUNDLE ELITE",
       slug: "collector-bundle-elite",
-      sku: "FBA-BND-EL-005",
-      brand: "FBA",
+      sku: "SMK-BND-EL-005",
+      brand: "SMOKA",
       categoryId: categories[3].id,
       description:
         "The ultimate collector bundle. Includes limited device, premium case, and exclusive accessories. Only 50 bundles available.",
@@ -196,7 +196,7 @@ async function main() {
     {
       name: "ILUMA PRIME MIDNIGHT",
       slug: "iluma-prime-midnight",
-      sku: "FBA-ILUMA-MN-006",
+      sku: "SMK-ILUMA-MN-006",
       brand: "IQOS",
       categoryId: categories[2].id,
       description:
@@ -215,8 +215,8 @@ async function main() {
     {
       name: "CLEANING KIT PRO",
       slug: "cleaning-kit-pro",
-      sku: "FBA-CLN-PR-007",
-      brand: "FBA",
+      sku: "SMK-CLN-PR-007",
+      brand: "SMOKA",
       categoryId: categories[1].id,
       description: "Professional-grade cleaning kit for device maintenance.",
       shortDescription: "Professional cleaning kit",
@@ -232,7 +232,7 @@ async function main() {
     {
       name: "ILUMA PRIME GOLD EDITION",
       slug: "iluma-prime-gold-edition",
-      sku: "FBA-ILUMA-GD-008",
+      sku: "SMK-ILUMA-GD-008",
       brand: "IQOS",
       categoryId: categories[2].id,
       description:
@@ -369,16 +369,16 @@ async function main() {
 
   const defaultSettings = {
     general: {
-      storeName: "FINAL BOSS ACTIVITY",
-      storeEmail: "contact@finalbossactivity.com",
+      storeName: "SMOKA",
+      storeEmail: "contact@smoka.com",
       storePhone: "+30 210 000 0000",
       currency: "EUR",
       timezone: "Europe/Athens",
     },
     brand: {
-      logo: "",
-      favicon: "",
-      tagline: "Rare. Limited. Unforgettable.",
+      logo: "/smoka-logo.jpg",
+      favicon: "/smoka-logo.jpg",
+      tagline: "Rare • Limited • Exclusive",
     },
     store: {
       freeShippingThreshold: 100,
@@ -387,10 +387,10 @@ async function main() {
     },
     payments: { stripeEnabled: false, codEnabled: true },
     shipping: { defaultCountry: "GR", estimatedDays: "2-5 business days" },
-    orders: { prefix: "FBA", autoConfirm: false },
+    orders: { prefix: "SMK", autoConfirm: false },
     notifications: { orderConfirmation: true, lowStockAlert: true },
     social: {
-      instagram: "https://instagram.com/finalbossactivity",
+      instagram: "https://instagram.com/smoka",
       facebook: "",
       twitter: "",
       tiktok: "",
@@ -398,10 +398,10 @@ async function main() {
     whatsapp: {
       enabled: true,
       number: "306900000000",
-      message: "Hello! I have a question about FINAL BOSS ACTIVITY.",
+      message: "Hello! I have a question about SMOKA.",
     },
     seo: {
-      title: "FINAL BOSS ACTIVITY | Rare & Limited Edition Products",
+      title: "SMOKA | Rare & Limited Edition Products",
       description: "Discover rare and limited-edition products selected for collectors who want something different.",
       keywords: "limited edition, rare, collector, premium",
     },
@@ -435,7 +435,7 @@ async function main() {
   });
 
   console.log("Seed completed!");
-  console.log("Admin: admin@finalbossactivity.com / admin123");
+  console.log("Admin: admin@smoka.com / admin123");
   console.log("Customer: customer@example.com / customer123");
 }
 

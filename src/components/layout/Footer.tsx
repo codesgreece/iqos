@@ -40,7 +40,7 @@ const FOOTER_COLUMNS = [
   {
     title: "Contact",
     links: [
-      { href: "mailto:contact@finalbossactivity.com", label: "contact@finalbossactivity.com" },
+      { href: "mailto:contact@smoka.com", label: "contact@smoka.com" },
       { href: "/contact", label: "Get in Touch" },
       { href: "/stores", label: "Store Locator" },
     ],
@@ -74,7 +74,7 @@ function TwitterIcon({ className }: { className?: string }) {
 }
 
 export function Footer({
-  storeName = "FINAL BOSS ACTIVITY",
+  storeName = "SMOKA",
   social,
 }: {
   storeName?: string;
@@ -100,7 +100,7 @@ export function Footer({
               {storeName}
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-muted">
-              Rare. Limited. Unforgettable. Curated products for collectors who demand something extraordinary.
+              Rare • Limited • Exclusive. Curated products for collectors who demand something extraordinary.
             </p>
             <div className="mt-6 flex items-center gap-3">
               {socialLinks.map(({ href, label, icon: Icon }) => (

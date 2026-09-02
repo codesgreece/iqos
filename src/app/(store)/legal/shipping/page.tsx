@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Shipping & Delivery | FINAL BOSS ACTIVITY",
+  title: "Shipping & Delivery | SMOKA",
 };
 
 export default function ShippingPage() {

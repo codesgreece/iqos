@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import NextImage from "next/image";
 import { usePathname } from "next/navigation";
 import {
   LayoutDashboard,
@@ -39,7 +40,13 @@ export function AdminSidebar() {
       <div className="border-b border-border px-6 py-5">
         <Link href="/admin" className="block">
           <span className="text-xs font-semibold uppercase tracking-widest text-muted">Admin</span>
-          <span className="mt-0.5 block text-sm font-bold text-lavender">FINAL BOSS ACTIVITY</span>
+          <NextImage
+            src="/smoka-logo.jpg"
+            alt="SMOKA"
+            width={120}
+            height={40}
+            className="mt-2 h-8 w-auto"
+          />
         </Link>
       </div>
 

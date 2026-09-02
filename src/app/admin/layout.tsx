@@ -4,7 +4,7 @@ import { ToastProvider } from "@/context/ToastContext";
 import { AdminShell } from "@/components/admin/AdminShell";
 
 export const metadata = {
-  title: "Admin | FINAL BOSS ACTIVITY",
+  title: "Admin | SMOKA",
 };
 
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {

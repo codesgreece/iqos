@@ -75,16 +75,16 @@ export interface SiteSettingsData {
 
 export const DEFAULT_SETTINGS: SiteSettingsData = {
   general: {
-    storeName: "FINAL BOSS ACTIVITY",
-    storeEmail: "contact@finalbossactivity.com",
+    storeName: "SMOKA",
+    storeEmail: "contact@smoka.com",
     storePhone: "",
     currency: "EUR",
     timezone: "Europe/Athens",
   },
   brand: {
-    logo: "",
-    favicon: "",
-    tagline: "Rare. Limited. Unforgettable.",
+    logo: "/smoka-logo.jpg",
+    favicon: "/smoka-logo.jpg",
+    tagline: "Rare • Limited • Exclusive",
   },
   store: {
     freeShippingThreshold: 100,
@@ -100,7 +100,7 @@ export const DEFAULT_SETTINGS: SiteSettingsData = {
     estimatedDays: "2-5 business days",
   },
   orders: {
-    prefix: "FBA",
+    prefix: "SMK",
     autoConfirm: false,
   },
   notifications: {
@@ -116,13 +116,13 @@ export const DEFAULT_SETTINGS: SiteSettingsData = {
   whatsapp: {
     enabled: true,
     number: "306900000000",
-    message: "Hello! I have a question about FINAL BOSS ACTIVITY.",
+    message: "Hello! I have a question about SMOKA.",
   },
   seo: {
-    title: "FINAL BOSS ACTIVITY | Rare & Limited Edition Products",
+    title: "SMOKA | Rare & Limited Edition Products",
     description:
       "Discover rare and limited-edition products selected for collectors who want something different.",
-    keywords: "limited edition, rare, collector, premium",
+    keywords: "limited edition, rare, collector, premium, SMOKA",
   },
   appearance: {
     background: "#0D0B14",

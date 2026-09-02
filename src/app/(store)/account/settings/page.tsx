@@ -16,7 +16,7 @@ export default function AccountSettingsPage() {
             Account
           </h2>
           <p className="mb-4 text-sm text-muted">
-            Sign out of your FINAL BOSS ACTIVITY account on this device.
+            Sign out of your SMOKA account on this device.
           </p>
           <Button variant="outline" onClick={() => signOut({ callbackUrl: "/" })}>
             Sign Out

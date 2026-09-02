@@ -23,7 +23,7 @@ interface HeaderProps {
   storeName?: string;
 }
 
-export function Header({ logo, storeName = "FINAL BOSS ACTIVITY" }: HeaderProps) {
+export function Header({ logo = "/smoka-logo.jpg", storeName = "SMOKA" }: HeaderProps) {
   const pathname = usePathname();
   const { cart, openCart } = useCart();
   const [scrolled, setScrolled] = useState(false);
@@ -65,7 +65,7 @@ export function Header({ logo, storeName = "FINAL BOSS ACTIVITY" }: HeaderProps)
             className="flex shrink-0 items-center gap-2 text-sm font-bold uppercase tracking-[0.2em] text-white transition-colors hover:text-lavender sm:text-base"
           >
             {logo ? (
-              <Image src={logo} alt={storeName} width={120} height={32} className="h-8 w-auto" />
+              <Image src={logo} alt={storeName} width={120} height={48} className="h-10 w-auto" priority />
             ) : (
               storeName
             )}

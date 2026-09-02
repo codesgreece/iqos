@@ -3,7 +3,7 @@ import { getProducts, toProductCardData } from "@/lib/services/products";
 import { ProductGrid } from "@/components/shop/ProductGrid";
 
 export const metadata: Metadata = {
-  title: "Limited Editions | FINAL BOSS ACTIVITY",
+  title: "Limited Editions | SMOKA",
   description: "Exclusive limited edition products — once they're gone, they're gone.",
 };
 
