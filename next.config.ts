@@ -8,8 +8,10 @@ const nextConfig: NextConfig = {
     ],
   },
   outputFileTracingIncludes: {
-    "/*": ["./prisma/store.db", "./prisma/dev.db"],
-    "/api/*": ["./prisma/store.db", "./prisma/dev.db"],
+    "/*": ["./prisma/store.db"],
+    "/api/*": ["./prisma/store.db"],
+    "/admin/*": ["./prisma/store.db"],
+    "/account/*": ["./prisma/store.db"],
   },
 };
 

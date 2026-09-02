@@ -1,5 +1,5 @@
 {
-  "buildCommand": "prisma generate && DATABASE_URL=\"file:./prisma/store.db\" prisma db push && DATABASE_URL=\"file:./prisma/store.db\" npx tsx prisma/seed.ts && next build",
+  "buildCommand": "npm run vercel-build",
   "framework": "nextjs",
   "regions": ["fra1"]
 }
