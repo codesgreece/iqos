@@ -7,6 +7,10 @@ const nextConfig: NextConfig = {
       { protocol: "http", hostname: "localhost" },
     ],
   },
+  outputFileTracingIncludes: {
+    "/*": ["./prisma/store.db", "./prisma/dev.db"],
+    "/api/*": ["./prisma/store.db", "./prisma/dev.db"],
+  },
 };
 
 export default nextConfig;

@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "postinstall": "prisma generate",
-    "vercel-build": "prisma generate && next build",
+    "vercel-build": "DATABASE_URL=file:./prisma/store.db prisma db push && DATABASE_URL=file:./prisma/store.db npx tsx prisma/seed.ts && next build",
     "db:push": "prisma db push",
     "db:seed": "npx tsx prisma/seed.ts",
     "db:setup": "prisma db push && npx tsx prisma/seed.ts"
